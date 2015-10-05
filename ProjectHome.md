@@ -1,0 +1,3 @@
+The goal of this script is to allow users to easily test any web for cross-site-scripting flaws. The script aims to do this by providing an easy to use menu by any form.
+
+In order to effectively test for XSS the script loads up two "Cheat Sheets", one created and managed by RSnake, the other by .mario. RSnake's Cheat Sheet is widely regarded to be a pretty definitive list is terms of what may show an XSS hole on a site. The list managed by .mario was made to be more concise yet cover more topics (I'll let you see what he covers yourself). A user can easily edit what XML files are loaded to provide the XSS vectors available for injection, but they must all follow a set schema (look at either XML file to see the structure).
